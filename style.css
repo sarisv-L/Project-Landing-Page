@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   background-color: #1f2937;
 }
@@ -102,4 +106,28 @@ p {
   margin: 0;
   /* text-align: center; */
   width: 130px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.quote-text {
+  font-size: 26px;
+  font-weight: 100;
+  color: #1f2937;
+  flex: auto;
+  margin: 80px 200px;
+}
+
+.thor {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  font-weight: bold;
 }
